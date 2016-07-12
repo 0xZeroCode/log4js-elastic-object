@@ -1,13 +1,13 @@
 {
   "name": "log4js-elastic-object",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "log4js elasticsearch appender. log object is saved as object in elasticsearch.",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Irakli Jishkariani <irakli2692@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "elasticsearch": "^11.0.1"
   }
