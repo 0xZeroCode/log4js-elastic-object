@@ -1,4 +1,7 @@
 # log4js-elastic-object
+
+[![NPM](https://nodei.co/npm/log4js-elastic-object.png)](https://nodei.co/npm/log4js-elastic-object/)
+
 log4js elasticsearch appender. log object is saved as object in elasticsearch.
 
 log4js configure:
