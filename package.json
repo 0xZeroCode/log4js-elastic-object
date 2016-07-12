@@ -1,6 +1,6 @@
 {
   "name": "log4js-elastic-object",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "log4js elasticsearch appender. log object is saved as object in elasticsearch.",
   "main": "app.js",
   "scripts": {

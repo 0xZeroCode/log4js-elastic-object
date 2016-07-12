@@ -15,9 +15,9 @@ function createAppender(layout, config, options, done) {
 
   return function(loggingEvent) {
     var currentDate = new Date();
-    var dateString = currentDate.getFullYear() + "_" + currentDate.getMonth() + 1 + "_" + currentDate.getDate();
+    var dateString = currentDate.getFullYear() + "." + (currentDate.getMonth() + 1) + "." + currentDate.getDate();
 
-    var index = indexNamePrefix + "_" + dateString;
+    var index = indexNamePrefix + "-" + dateString;
 
     loggingEvent.data.forEach(function (element) {
       var log = {
