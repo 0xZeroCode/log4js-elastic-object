@@ -7,5 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Irakli Jishkariani <irakli2692@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "elasticsearch": "^11.0.1"
+  }
 }
